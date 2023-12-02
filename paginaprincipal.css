@@ -54,7 +54,7 @@ body {
     padding: 15px 30px; 
     font-size: 18px; 
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega transiciones para un efecto suave */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
     background: linear-gradient(45deg, rgb(0, 0, 31), rgb(0, 12, 117), rgb(72, 2, 72), rgb(52, 2, 53));
     background-size: 400% 400%;
     animation: gradientAnimation 5s infinite;
@@ -80,7 +80,7 @@ body {
     padding: 15px 30px; 
     font-size: 18px; 
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega transiciones para un efecto suave */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
     background: linear-gradient(45deg, rgb(0, 0, 31), rgb(0, 24, 239), rgb(72, 2, 72), rgb(52, 2, 53));
     background-size: 400% 400%;
     animation: gradientAnimation 5s infinite;
@@ -101,6 +101,57 @@ body {
     transition: color 0.3s;
 }
 
+.tienda__categoria--pantalon {
+    background-color: transparent;
+    border: 3px solid #fff; 
+    border-radius: 8px;
+    color: #fff; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    background: linear-gradient(45deg, rgb(0, 0, 31), rgb(0, 24, 239), rgb(72, 2, 72), rgb(52, 2, 53));
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s infinite;
+    transition: color 0.3s;
+}
+
+.tienda__categoria--camisas {
+    background-color: transparent;
+    border: 3px solid #fff; 
+    border-radius: 8px;
+    color: #fff; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    background: linear-gradient(45deg, rgb(0, 0, 31), rgb(0, 24, 239), rgb(72, 2, 72), rgb(52, 2, 53));
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s infinite;
+    transition: color 0.3s;
+}
+
+.tienda__categoria--tamaño {
+    background-color: transparent;
+    border: 3px solid #fff; 
+    border-radius: 8px;
+    color: #fff; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    background: linear-gradient(45deg, rgb(0, 0, 31), rgb(0, 24, 239), rgb(72, 2, 72), rgb(52, 2, 53));
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s infinite;
+    transition: color 0.3s;
+}
+
+.tienda__categoria option {
+    font-size: 22px;
+    background: black;
+    color: white;
+}
+
 .tabla {
     display: flex;
     flex-direction: column;
@@ -111,7 +162,7 @@ body {
     
 }
 .tabla__contenedor {
-    top: -230px;
+    top: -494px;
     text-align: center;
     border-radius: 15px;
     right: 40px;
@@ -135,9 +186,27 @@ td {
 
 .navegacion {
     display: flex;
-    margin-top: -200px;
+    margin-top: -480px;
     line-height: 30px;
     margin-bottom: 40px;
+}
+
+.btn--vermas { /* se encuentra en javascript*/
+    line-height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    background: linear-gradient(45deg, rgb(0, 0, 31), rgb(0, 24, 239), rgb(72, 2, 72), rgb(52, 2, 53));
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s infinite;
+    transition: color 0.3s;
+}
+
+.salirDeVentana {
+    border: 1px solid rgb(125, 120, 120);
+    line-height: 30px;
+    width: 240px;
 }
 
 .modal {

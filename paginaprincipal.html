@@ -9,34 +9,60 @@
 <body>
 
     <header class="Encabezado">
+
         <h1 class="Encabezado__ventaderopa"> Venta de Ropa</h1>
+        
     </header>
   
     <h1 class="titulo">Escoge un producto</h1>
+
     <section class="tienda">
         <div class="tienda__categoria">
+
             <button class="tienda__categoria tienda__categoria--mostrartodo" type="button" onclick="mostrarTodo()">Todo</button>
             <button class="tienda__categoria tienda__categoria--categoriahombre" type="button" onclick="filtrarPorCategoria('ropahombre')">Ropa para hombre</button>
             <button class="tienda__categoria tienda__categoria--categoriamujer" type="button" onclick="filtrarPorCategoria('ropamujer')">Ropa para mujer</button>
+            <button class="tienda__categoria tienda__categoria--pantalon" type="button" onclick="filtrarPorPantalon('Pantalon')">Pantalones</button>
+            <button class="tienda__categoria tienda__categoria--camisas" type="button" onclick="filtrarPorCamisa('camisa')">Camisas y Camisetas</button>
+
+            <select  class="tienda__categoria tienda__categoria--tamaño" id="selectTalla" onchange="filtrarPorTalla()">
+
+                <option class="tienda__categoria tienda__categoria--opciones1" value="">Tallas</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+    
+            </select>
+
         </div>
     </section>
+
     <section class="tabla">
+
         <h5 class="tabla__contenedor" id="productos__contenedor"></h5>
-        <div class="navegacion">
-            <button class="navegacion__anterior" type="button" onclick="cambiarPagina('anterior')">Anterior</button>
-            <div class="navegacion__subindice" id="subindice"></div>
-            <button class="navegacion__siguiente" type="button" onclick="cambiarPagina('siguiente')">Siguiente</button>
-        </div>
+
+            <div class="navegacion">
+
+                <button class="navegacion__anterior" type="button" onclick="cambiarPagina('anterior')">Anterior</button>
+                <div class="navegacion__subindice" id="subindice"></div>
+                <button class="navegacion__siguiente" type="button" onclick="cambiarPagina('siguiente')">Siguiente</button>
+
+            </div>
+
     </section>
 
     <div id="modalOverlay" class="modal-overlay" onclick="cerrarModal()"></div>
+    
 
     <div id="detalleModal" class="modal">
-        <h2 class="titulomodal">Venta de Ropa</h2>
-        <div class="modal__close" onclick="cerrarModal()"></div>
-        <section class="modal__contenedor" id="detalleModalBody">
 
+            <h2 class="titulomodal">Venta de Ropa</h2>
+            <div class="modal__close" onclick="cerrarModal()"></div>
+
+        <section class="modal__contenedor" id="detalleModalBody">
+            
             <div id="mensaje-guardado" style="display: none;">La información se ha guardado correctamente.</div>
+
             <label for="id">id:</label>
             <input type="text" id="id" name="id"><br><br>
             <label for="tipo">Tipo:</label>
@@ -55,6 +81,7 @@
             <input type="text" id="precio" name="precio"><br><br>
             
             <button onclick="guardarCambios()">Guardar cambios</button>
+
         </section>
     </div>
 

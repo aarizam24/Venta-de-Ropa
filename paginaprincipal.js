@@ -4,7 +4,7 @@ const baseDeDatos = baseDeDatosStored ? JSON.parse(baseDeDatosStored) : [
     { id: 1, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Azul', tamaño: 'M', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/azul/camisamujerazul.png'},
     { id: 2, tipo: 'camisa', nombre: 'Camisa Hombre ', categoria: 'ropahombre', color: 'Azul', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/azul/camisahombrelargazul.png'},
     { id: 3, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Rojo', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/rojo/camisamujerojo2.png' },
-    { id: 4, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/verde/camisetahombreverde1.png'},
+    { id: 4, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/verde/camisetahombreverde1.png'},
     { id: 5, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Negro', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/negro/camisamujernegra1.png'},
     { id: 6, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Amarillo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/amarillo/camisaamarillla1.png'},
     { id: 7, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Rojo', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/negro/pantalonhombrenegro1.png'},
@@ -15,11 +15,11 @@ const baseDeDatos = baseDeDatosStored ? JSON.parse(baseDeDatosStored) : [
     { id: 12, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropamujer', color: 'Verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/verde/pantalonmujerverde1.png'},
     { id: 13, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Amarillo', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/amarillo/pantalonamarillomujer1.png'},
     { id: 14, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Amarillo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/amarillo/camisetamujer3.png'},
-    { id: 15, tipo: 'Camiseta', nombre: 'Camiseta Mujer ', categoria: 'ropahombre', color: 'Negro', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/negro/camisetahombrenegro1.png'},
-    { id: 16, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Rojo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/rojo/camisetahombrerojo1.png'},
+    { id: 15, tipo: 'camisa', nombre: 'Camiseta Mujer ', categoria: 'ropahombre', color: 'Negro', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/negro/camisetahombrenegro1.png'},
+    { id: 16, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Rojo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/rojo/camisetahombrerojo1.png'},
     { id: 17, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Negra', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/negro/cmisanegramujer2.png' },
-    { id: 18, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Amarillo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/amarillo/camisetahombreamarilla1.png'},
-    { id: 19, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Azul', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/azul/camisetahombreazul1.png' },
+    { id: 18, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Amarillo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/amarillo/camisetahombreamarilla1.png'},
+    { id: 19, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Azul', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/azul/camisetahombreazul1.png' },
     { id: 20, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/verde/camisamujerverde1.png'},
     { id: 21, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Blanco', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/blanco/camisetablancohombre1.png' },
     { id: 22, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Rojo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/rojo/pantalonrojomujer1.png'},
@@ -29,41 +29,46 @@ const baseDeDatos = baseDeDatosStored ? JSON.parse(baseDeDatosStored) : [
     { id: 26, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/verde/pantalonhombreverde1.png'},
     { id: 27, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Blanco', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/blanco/pantalonmujerblanco1.png' },
     { id: 28, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/verde/pantalonverdehombre2.png'},
-    { id: 29, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Blanco', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/blanco/camisalargablancamujer2.png' },
+    { id: 29, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Blanco', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/blanco/camisalargablancamujer2.png' },
     { id: 30, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Azul', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/azul/pantalonhombreazul2.png'},
     { id: 31, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Azul', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/azul/pantalonmujerazul1.png' },
     { id: 32, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Azul', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/azul/pantalonhombreazul3.png'},
     { id: 33, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Negro', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/negro/pantalonmujernegro1.png' },
     { id: 34, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropamujer', color: 'Cafe', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/cafe/pantalonmujercafe1.png'},
-    { id: 35, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropahombre', color: 'Cafe', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/cafe/pantalonhombrecafe1.png' },
+    { id: 35, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Cafe', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/cafe/pantalonhombrecafe1.png' },
     { id: 36, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Naranja', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/naranja/pantalonaranjahombre1.png'},
     { id: 37, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Naranja', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/naranja/pantalonaranjamujer1.png' },
     { id: 38, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Gris', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/gris/pantalonhombregris1.png'},
     { id: 39, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Gris', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/gris/pantalongrismujer1.png' },
     { id: 40, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Naranja', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/naranja/camisetahombrenaranja1.png'},
     { id: 41, tipo: 'camisa', nombre: 'Camisa Mujer ', categoria: 'ropamujer', color: 'Naranja', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/naranja/camisanaranjamujer1.png' },
-    { id: 42, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/verde/camisetahombreverde2.png'},
-    { id: 43, tipo: 'Camiseta', nombre: 'Camiseta Mujer ', categoria: 'ropamujer', color: 'Morado', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/morado/cmisetamujermorado1.png' },
+    { id: 42, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Verde', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/verde/camisetahombreverde2.png'},
+    { id: 43, tipo: 'camisa', nombre: 'Camiseta Mujer ', categoria: 'ropamujer', color: 'Morado', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/morado/cmisetamujermorado1.png' },
     { id: 44, tipo: 'camisa', nombre: 'Camisa Hombre ', categoria: 'ropahombre', color: 'Morado', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/morado/camisalargahombremorado1.png'},
-    { id: 45, tipo: 'Camiseta', nombre: 'Camiseta Mujer ', categoria: 'ropamujer', color: 'Negro', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/negro/cmisetamujernegro4.png' },
-    { id: 46, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Negro', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/negro/camisetahombrenegro2.png'},
-    { id: 47, tipo: 'Camiseta', nombre: 'Vestido Mujer ', categoria: 'ropamujer', color: 'Cafe', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/cafe/camisetamujercafe1.png' },
-    { id: 48, tipo: 'Camiseta', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Morado', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/morado/camisetahombremorado2.png'},
+    { id: 45, tipo: 'camisa', nombre: 'Camiseta Mujer ', categoria: 'ropamujer', color: 'Negro', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/negro/cmisetamujernegro4.png' },
+    { id: 46, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Negro', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/negro/camisetahombrenegro2.png'},
+    { id: 47, tipo: 'camisa', nombre: 'Vestido Mujer ', categoria: 'ropamujer', color: 'Cafe', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/camisas/cafe/camisetamujercafe1.png' },
+    { id: 48, tipo: 'camisa', nombre: 'Camiseta Hombre ', categoria: 'ropahombre', color: 'Morado', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/camisas/morado/camisetahombremorado2.png'},
     { id: 49, tipo: 'Pantalon', nombre: 'Pantalon Mujer ', categoria: 'ropamujer', color: 'Azul', tamaño: 'S', tipoTela: 'Seda', precio: 39.99, img: 'img/pantalones/azul/pantalonazulmujer2.png' },
     { id: 50, tipo: 'Pantalon', nombre: 'Pantalon Hombre ', categoria: 'ropahombre', color: 'Rojo', tamaño: 'M', tipoTela: 'Algodón', precio: 19.99, img: 'img/pantalones/rojo/pantalonhombrerojo1.png'},
 ];
 const cantidadElementos = baseDeDatos.length;
 
+let ultimaTallaSeleccionada = 'todos';
+let paginaActual = 1;
+const elementosPorPagina = 10;
+let categoriaSeleccionada = null;
+
 for (let i = 0; i < cantidadElementos; i++) {
   const productoActual = baseDeDatos[i];
   console.log(productoActual);
 }
-const elementosPorPagina = 10;
+
 const contenedorProductos = document.getElementById('productos__contenedor');
 const subindice = document.getElementById('subindice');
-let paginaActual = 1;
 
 function mostrarProductos(productos) {
+    const contenedorProductos = document.getElementById('productos__contenedor');
     const tabla = document.createElement('table');
     const cuerpo = document.createElement('tbody');
     const encabezado = document.createElement('thead');
@@ -81,28 +86,36 @@ function mostrarProductos(productos) {
     `;
     tabla.appendChild(encabezado);
 
-    productos.forEach(producto => {
-        const fila = document.createElement('tr');
-        fila.innerHTML = `
-            <td>${producto.id}</td>
-            <td>${producto.nombre}</td>
-            <td>${producto.categoria}</td>
-            <td>${producto.color}</td>
-            <td>${producto.tamaño}</td>
-            <td><img src="${producto.img}" alt="${producto.nombre}" style="width: 90px; height: 120px;"></td>
-            <td>
-                <button onclick="mostrarDetalle(${producto.id})" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalleModal">Ver más...</button>
-            </td>
-        `;
-        cuerpo.appendChild(fila);
-    });
-    tabla.appendChild(cuerpo);
-
-    contenedorProductos.innerHTML = '';
-    contenedorProductos.appendChild(tabla);
-
+    if (productos.length === 0) {
+        
+        const mensajeNoResultados = document.createElement('h1');
+        mensajeNoResultados.innerText = 'No se encontraron productos para la opcion seleccionada.';
+        contenedorProductos.innerHTML = '';
+        contenedorProductos.appendChild(mensajeNoResultados);
+    } else {
+        
+        productos.forEach(producto => {
+            const fila = document.createElement('tr');
+            fila.innerHTML = `
+                <td>${producto.id}</td>
+                <td>${producto.nombre}</td>
+                <td>${producto.categoria}</td>
+                <td>${producto.color}</td>
+                <td>${producto.tamaño}</td>
+                <td><img src="${producto.img}" alt="${producto.nombre}" style="width: 90px; height: 120px;"></td>
+                <td>
+                    <button onclick="mostrarDetalle(${producto.id})" class="btn btn--vermas" data-bs-toggle="modal" data-bs-target="#detalleModal">Ver más...</button>
+                </td>
+            `;
+            cuerpo.appendChild(fila);
+        });
+        tabla.appendChild(cuerpo);
+        contenedorProductos.innerHTML = '';
+        contenedorProductos.appendChild(tabla);
+    }
     mostrarSubindice();
 }
+
 document.getElementById('mensaje-guardado').style.display = 'block';
 
 setTimeout(function() {
@@ -111,7 +124,7 @@ setTimeout(function() {
 
 function mostrarDetalle(id) {
     const modalBody = document.getElementById('detalleModalBody');
-    modalBody.innerHTML = '<p><i class="fas fa-spinner fa-spin"></i> Cargando...</p>';
+    modalBody.innerHTML = '<p> Cargando...</p>';
   
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     delay(1500)
@@ -120,7 +133,8 @@ function mostrarDetalle(id) {
   
         const modalBody = document.getElementById('detalleModalBody');
         modalBody.innerHTML = `
-            <p>id: ${productoActual.id}</p>
+
+            <p>Id: ${productoActual.id}</p>
             <p>Tipo: ${productoActual.tipo}</p>
             <p>Nombre: ${productoActual.nombre}</p>
             <p>Categoría: ${productoActual.categoria}</p>
@@ -128,13 +142,15 @@ function mostrarDetalle(id) {
             <p>Tamaño: ${productoActual.tamaño}</p>
             <p>Tipo de Tela: ${productoActual.tipoTela}</p>
             <p>Precio: ${productoActual.precio}</p>
-            <img src="${productoActual.img}" alt="${productoActual.nombre}" style="width: 200px; height: 300px;">
+            <img src="${productoActual.img}" alt="${productoActual.nombre}" style="width: 200px; height: 300px;"><br></br>
+
+            <h5 class="salirDeVentana"> Para salir de click por fuera de la ventana </h5><br></br>
             
-            <button onclick="mostrarFormulario(${productoActual.id})">Actualizar</button>
-  
+            <button onclick="mostrarFormulario(${productoActual.id})">Actualizar</button><br></br>
+
             <div id="formulario-actualizar" style="display: none;">
   
-            <label for="id">id:</label>
+            <label for="id">Id:</label>
             <input type="text" id="id" name="id" value="${productoActual.id}"><br><br>
             <label for="tipo">Tipo:</label>
             <input type="text" id="tipo" name="tipo" value="${productoActual.tipo}"><br><br>
@@ -192,11 +208,11 @@ function guardarCambios() {
     const tipoTela = document.getElementById('tipoTela').value;
     const precio = document.getElementById('precio').value;
    
-    document.getElementById('detalleModalBody').innerHTML = '<p><i class="fas fa-spinner fa-spin"></i> Guardando...</p>';
+    document.getElementById('detalleModalBody').innerHTML = '<p> Guardando...</p>';
     
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-    const guardarCambiosPromise = delay(2000)
+    const guardarCambiosPromise = delay(1500)
         .then(() => {
             const producto = baseDeDatos.find(p => p.id == id);
             if (producto) {
@@ -223,12 +239,71 @@ function mostrarTodo() {
     mostrarProductos(productosFiltrados.slice(0, elementosPorPagina));
     mostrarSubindice();
 }
+
 function filtrarPorCategoria(categoria) {
     paginaActual = 1;
+    categoriaSeleccionada = categoria;
     productosFiltrados = baseDeDatos.filter(producto => producto.categoria === categoria);
     mostrarProductos(productosFiltrados.slice(0, elementosPorPagina));
     mostrarSubindice();
 }
+
+function filtrarPorPantalon(Pantalon) {
+    paginaActual = 1;
+
+    aplicarFiltros(); 
+
+    if (productosFiltrados.length > 0) {
+        productosFiltrados = productosFiltrados.filter(producto => producto.tipo === 'Pantalon');
+    } else {
+        productosFiltrados = baseDeDatos.filter(producto => producto.tipo === 'Pantalon');
+    }
+    mostrarProductos(productosFiltrados.slice(0, elementosPorPagina));
+    mostrarSubindice();
+}
+
+function tieneTalla(producto, talla) {
+    return producto.tamaño === talla;
+}
+
+function filtrarPorTalla() {
+    const seleccionTalla = document.getElementById('selectTalla').value;
+    paginaActual = 1;
+
+    if (seleccionTalla) {
+        ultimaTallaSeleccionada = seleccionTalla;
+    }
+    aplicarFiltros();
+    mostrarProductos(productosFiltrados.slice(0, elementosPorPagina));
+    mostrarSubindice();
+}
+
+function aplicarFiltros() {
+    if (categoriaSeleccionada && ultimaTallaSeleccionada) {
+        productosFiltrados = baseDeDatos.filter(producto => producto.categoria === categoriaSeleccionada && tieneTalla(producto, ultimaTallaSeleccionada));
+    } else if (categoriaSeleccionada) {
+        productosFiltrados = baseDeDatos.filter(producto => producto.categoria === categoriaSeleccionada);
+    } else if (ultimaTallaSeleccionada) {
+        productosFiltrados = baseDeDatos.filter(producto => tieneTalla(producto, ultimaTallaSeleccionada));
+    } else {
+        productosFiltrados = baseDeDatos;
+    }
+}
+
+function filtrarPorCamisa() {
+    paginaActual = 1;
+
+    aplicarFiltros();  
+    if (productosFiltrados.length > 0) {
+        productosFiltrados = productosFiltrados.filter(producto => producto.tipo === 'camisa');
+    } else {
+        productosFiltrados = baseDeDatos.filter(producto => producto.tipo === 'camisa');
+    }
+
+    mostrarProductos(productosFiltrados.slice(0, elementosPorPagina));
+    mostrarSubindice();
+}
+
 function mostrarSubindice() {
     const totalPaginas = Math.ceil(productosFiltrados.length / elementosPorPagina);
     if (paginaActual > totalPaginas) {
@@ -243,11 +318,13 @@ function mostrarSubindice() {
 function cambiarPagina(direccion) {
     const totalPaginas = Math.ceil(productosFiltrados.length / elementosPorPagina);
     if (direccion === 'anterior' && paginaActual > 1) {
-      paginaActual--;
+        paginaActual--;
     } else if (direccion === 'siguiente' && paginaActual < totalPaginas) {
-      paginaActual++;
+        paginaActual++;
     }
     mostrarProductos(productosFiltrados.slice((paginaActual - 1) * elementosPorPagina, paginaActual * elementosPorPagina));
     mostrarSubindice();
 }
+
 mostrarTodo();
+

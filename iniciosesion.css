@@ -9,7 +9,6 @@ body {
     background: linear-gradient(150deg, #010006, #202021, rgb(255, 191, 0));
     height: 100vh;
 }
-
 .post {
     display: grid;
     height: 200px;
@@ -22,8 +21,7 @@ body {
     background: linear-gradient(45deg, rgb(0, 0, 8), rgb(5, 4, 0), rgb(250, 192, 2), rgb(52, 2, 53));
     background-size: 400% 400%;
     animation: gradientAnimation 5s infinite;
-    transition: color 0.3s;
-    
+    transition: color 0.3s;  
 }
 @keyframes gradientAnimation {
     0% {
@@ -43,6 +41,21 @@ body {
 .post__username {
     margin-top: 10px;
 }
+  
+.alertacorreo {
+    display: none;
+    position: absolute;
+    margin-top: -28px;
+    left: 710px;
+    width: 235px;
+    line-height: 3px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 0.75rem;
+    border: 1px solid #f8e005;
+    border-radius: 0.25rem;
+}
+  
 .post__contraseña {
     margin-top: 5px;
 }
@@ -61,13 +74,10 @@ body {
     height: 30px;
     border-radius: 5px;
 }
-
 .post__mensaje {
     height: 100px;
     width: 290px;
-  
 }
-
 #modal {
     display: none;
     position: fixed;
@@ -79,4 +89,4 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     z-index: 1000;
-  }
+}

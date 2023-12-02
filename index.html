@@ -13,22 +13,32 @@
   </div>
 
   <section class="post">
+
     <h1 class="post__titulo"> Inicio de sesion </h1>
+
     <form onsubmit="verificarInicioSesion(event)">
+
       <p class="post__username">
-        <input type="text" id="usuario" required>
-        <label> Nombre de usuario </label>
+        <input  type="text" id="usuario" oninput="verificarCorreo()" required>
+        <label> Correo electrónico </label>
       </p>
+
+      <div id="alerta-correo" class="alertacorreo">Ingresa un correo electrónico válido.</div>
+
       <p class="post__contraseña">
         <input type="password" id="contraseña" required>
         <label>Contraseña</label>
       </p>
+
       <p class="post__btn">
-        <input class="post__btn post__btn--iniciarsesion" type="submit" value="Iniciar sesión">
+        <input class="post__btn post__btn--iniciarsesion" type="submit" value="Entrar">
         <button class="post__btn post__btn--limpiar" onclick="limpiar()"> Limpiar </button>
       </p>
+
     </form>
+
     <p id="mensaje"></p>
+    
   </section>
 
   <script src="iniciosesion.js"></script>
